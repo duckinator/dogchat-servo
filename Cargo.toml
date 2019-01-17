@@ -1,0 +1,9 @@
+[package]
+name = "dogchat"
+version = "0.1.0"
+authors = ["Ellen Marie Dash <me@duckie.co>"]
+edition = "2018"
+
+[dependencies]
+libservo = { git = "https://github.com/servo/servo", rev = "09cdcab500" }
+glutin = "0.9"
